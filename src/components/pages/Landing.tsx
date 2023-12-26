@@ -3,6 +3,7 @@ import { Hero } from '../blocks/Hero';
 import { Navbar } from '../blocks/Navbar';
 import Particles from '../common/particles';
 import { CTA } from '../blocks/call-to-action';
+import { Footer } from '../blocks/footer';
 
 export const Landing = () => {
   return (
@@ -14,6 +15,7 @@ export const Landing = () => {
       <Navbar />
       <Hero />
       <CTA/>
+      <Footer/>
     </main>
   );
 };
